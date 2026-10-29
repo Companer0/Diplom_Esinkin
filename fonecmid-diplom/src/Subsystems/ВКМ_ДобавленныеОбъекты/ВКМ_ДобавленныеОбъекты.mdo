@@ -6,5 +6,8 @@
     <value>Добавленные объекты (ВКМ)</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <subsystems>ВКМ_ОбслуживаниеКлиентов</subsystems>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>Role.ВКМ_РаботаСДокументомОбслуживаниеКлиента</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
 </mdclass:Subsystem>
