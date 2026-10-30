@@ -10,4 +10,6 @@
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>Role.ВКМ_РаботаСДокументомОбслуживаниеКлиента</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>CommonModule.ВКМ_Телеграм</content>
+  <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
 </mdclass:Subsystem>
