@@ -659,7 +659,8 @@
   <commonModules>CommonModule.ВариантыОтчетовСлужебный</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовСлужебныйКлиентСервер</commonModules>
-  <commonModules>CommonModule.ВКМ_Телеграм</commonModules>
+  <commonModules>CommonModule.ВКМ_ОтправкаВТелеграм</commonModules>
+  <commonModules>CommonModule.ВКМ_УведомленияВТелеграм</commonModules>
   <commonModules>CommonModule.ВнешниеПользователи</commonModules>
   <commonModules>CommonModule.ВнешниеПользователиКлиент</commonModules>
   <commonModules>CommonModule.ГенерацияШтрихкода</commonModules>
@@ -942,6 +943,7 @@
   <eventSubscriptions>EventSubscription.СкопироватьРеквизитыВерсииФайловВФайл</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайлов</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.ВКМ_ОтправкаВТелеграм</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗаполнениеДанныхДляОграниченияДоступа</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗапускДополнительныхОбработок</scheduledJobs>
