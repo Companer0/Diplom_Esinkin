@@ -404,15 +404,8 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <templates uuid="745a8e61-96fa-4899-8704-f8e7b94245ae">
-    <name>ВКМ_ПФ_MXL_АктОбОказанныхУслугах</name>
-    <synonym>
-      <key>ru</key>
-      <value>Акт об оказанных услугах (ВКМ)</value>
-    </synonym>
-  </templates>
   <templates uuid="e39f0ee9-3c74-4657-994d-526563fff0f2">
-    <name>ПФ_MXL_СчетЗаказ</name>
+    <name>ВКМ_ПФ_MXL_АктОбОказанныхУслугах</name>
     <synonym>
       <key>ru</key>
       <value>Акт об оказанных услугах (ВКМ)</value>
