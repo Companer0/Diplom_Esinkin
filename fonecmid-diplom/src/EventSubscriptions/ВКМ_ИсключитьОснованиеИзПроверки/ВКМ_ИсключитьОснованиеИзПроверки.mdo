@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a0803ab-53ae-40e0-9751-ae07077fe739">
+  <name>ВКМ_ИсключитьОснованиеИзПроверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исключить основание из проверки (ВКМ)</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.РеализацияТоваровУслуг</types>
+  </source>
+  <event>FillCheckProcessing</event>
+  <handler>CommonModule.ВКМ_ОбработчикиСобытий.ИсключитьОснованиеИзПроверкиРеализации</handler>
+</mdclass:EventSubscription>

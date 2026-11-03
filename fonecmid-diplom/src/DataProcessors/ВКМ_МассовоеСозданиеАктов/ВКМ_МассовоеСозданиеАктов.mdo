@@ -23,14 +23,6 @@
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
     </type>
-    <format>
-      <key>ru</key>
-      <value>ДФ='ММММ гггг'</value>
-    </format>
-    <editFormat>
-      <key>ru</key>
-      <value>ДФ='ММММ гггг'</value>
-    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -44,6 +36,19 @@
       <key>ru</key>
       <value>Договоры и реализации</value>
     </synonym>
+    <attributes uuid="236501aa-a49e-48fc-9a34-3089b0f678ca">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
     <attributes uuid="3196f8e6-b336-494f-9208-831c559261a0">
       <name>Договор</name>
       <synonym>
@@ -69,6 +74,36 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="02faf58e-2a4b-4c87-82a6-13a93efa515d">
+      <name>Состояние</name>
+      <synonym>
+        <key>ru</key>
+        <value>Состояние</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="d1e20856-593a-4efa-8481-6072fbc7450f">
+      <name>ОписаниеОшибки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание ошибки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
   </tabularSections>
   <forms uuid="6b0f7d09-b767-49cc-8104-a054e6e12fff">

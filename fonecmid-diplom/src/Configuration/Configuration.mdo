@@ -141,6 +141,7 @@
   <commonPictures>CommonPicture.ВидыКонтактнойИнформации</commonPictures>
   <commonPictures>CommonPicture.ВидыОпераций</commonPictures>
   <commonPictures>CommonPicture.ВидыСравнения</commonPictures>
+  <commonPictures>CommonPicture.ВКМ_ОбслуживаниеКлиентов</commonPictures>
   <commonPictures>CommonPicture.ВКонтакте16</commonPictures>
   <commonPictures>CommonPicture.Вопрос32</commonPictures>
   <commonPictures>CommonPicture.ВосклицательныйЗнакКрасный</commonPictures>
@@ -659,6 +660,8 @@
   <commonModules>CommonModule.ВариантыОтчетовСлужебный</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ВКМ_ДлительныеОперации</commonModules>
+  <commonModules>CommonModule.ВКМ_ОбработчикиСобытий</commonModules>
   <commonModules>CommonModule.ВКМ_ОтправкаВТелеграм</commonModules>
   <commonModules>CommonModule.ВКМ_УведомленияВТелеграм</commonModules>
   <commonModules>CommonModule.ВнешниеПользователи</commonModules>
@@ -900,6 +903,7 @@
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПриУдаленииПользователя</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВключитьРегламентноеЗаданиеПриИзмененииФункциональнойОпции</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ВКМ_ИсключитьОснованиеИзПроверки</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПередЗаписьюПрисоединенногоФайла</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПередУдалениемПрисоединенногоФайла</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</eventSubscriptions>

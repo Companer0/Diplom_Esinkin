@@ -15,4 +15,8 @@
   <content>CommonModule.ВКМ_УведомленияВТелеграм</content>
   <content>ScheduledJob.ВКМ_ОтправкаВТелеграм</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>CommonModule.ВКМ_ДлительныеОперации</content>
+  <content>CommonModule.ВКМ_ОбработчикиСобытий</content>
+  <content>EventSubscription.ВКМ_ИсключитьОснованиеИзПроверки</content>
+  <content>CommonPicture.ВКМ_ОбслуживаниеКлиентов</content>
 </mdclass:Subsystem>
