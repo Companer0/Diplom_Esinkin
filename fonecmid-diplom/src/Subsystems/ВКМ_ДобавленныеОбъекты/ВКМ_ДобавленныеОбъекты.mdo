@@ -21,4 +21,12 @@
   <content>CommonPicture.ВКМ_ОбслуживаниеКлиентов</content>
   <content>Role.ВКМ_ДобавлениеИзменениеДокументовРеализации</content>
   <content>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживаниеКлиента</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>Catalog.ВКМ_ГрафикРаботы</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>Document.ВКМ_НачислениеФиксированныхПремий</content>
+  <content>Document.ВКМ_НачислениеЗаработнойПлаты</content>
 </mdclass:Subsystem>
