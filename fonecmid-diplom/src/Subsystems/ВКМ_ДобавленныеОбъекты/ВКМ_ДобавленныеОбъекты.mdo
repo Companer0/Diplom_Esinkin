@@ -19,4 +19,6 @@
   <content>CommonModule.ВКМ_ОбработчикиСобытий</content>
   <content>EventSubscription.ВКМ_ИсключитьОснованиеИзПроверки</content>
   <content>CommonPicture.ВКМ_ОбслуживаниеКлиентов</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументовРеализации</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживаниеКлиента</content>
 </mdclass:Subsystem>
