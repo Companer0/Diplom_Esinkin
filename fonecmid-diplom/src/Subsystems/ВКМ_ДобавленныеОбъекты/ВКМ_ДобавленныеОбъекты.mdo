@@ -27,6 +27,10 @@
   <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
   <content>Catalog.ВКМ_ГрафикРаботы</content>
   <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
-  <content>Document.ВКМ_НачислениеФиксированныхПремий</content>
-  <content>Document.ВКМ_НачислениеЗаработнойПлаты</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>Document.ВКМ_НачисленияЗарплаты</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
 </mdclass:Subsystem>

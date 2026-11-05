@@ -7,13 +7,13 @@
     <listType typeId="431eae26-ba36-4482-90ee-2d573f5f26b6" valueTypeId="05d8e446-e100-4385-8a72-4c888337b528"/>
     <managerType typeId="c919e743-937c-4246-897f-0539a54d2358" valueTypeId="c9091997-cd73-4332-84c6-49e8de6a720a"/>
   </producedTypes>
-  <name>ВКМ_НачислениеЗаработнойПлаты</name>
+  <name>ВКМ_НачисленияЗарплаты</name>
   <synonym>
     <key>ru</key>
-    <value>Начисление заработной платы (ВКМ)</value>
+    <value>Начисления зарплаты (ВКМ)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ВКМ_НачислениеЗаработнойПлаты.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ВКМ_НачисленияЗарплаты.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -23,6 +23,9 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <registerRecords>CalculationRegister.ВКМ_ОсновныеНачисления</registerRecords>
+  <registerRecords>CalculationRegister.ВКМ_ДополнительныеНачисления</registerRecords>
+  <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
 </mdclass:Document>
