@@ -37,13 +37,6 @@
       <name>Премия</name>
       <description>Премия</description>
       <code xsi:type="core:StringValue">
-        <value>2</value>
-      </code>
-    </items>
-    <items id="362af3c7-ae50-43a1-81ab-aadbfc02ef2b">
-      <name>ПроцентЗаРаботы</name>
-      <description>Процент за работы</description>
-      <code xsi:type="core:StringValue">
         <value>1</value>
       </code>
     </items>

@@ -18,7 +18,6 @@
   <content>CommonModule.ВКМ_ДлительныеОперации</content>
   <content>CommonModule.ВКМ_ОбработчикиСобытий</content>
   <content>EventSubscription.ВКМ_ИсключитьОснованиеИзПроверки</content>
-  <content>CommonPicture.ВКМ_ОбслуживаниеКлиентов</content>
   <content>Role.ВКМ_ДобавлениеИзменениеДокументовРеализации</content>
   <content>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживаниеКлиента</content>
   <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
@@ -33,4 +32,7 @@
   <content>CalculationRegister.ВКМ_Удержания</content>
   <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>CommonPicture.ВКМ_Клиенты</content>
+  <content>CommonPicture.ВКМ_Зарплата</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
 </mdclass:Subsystem>
