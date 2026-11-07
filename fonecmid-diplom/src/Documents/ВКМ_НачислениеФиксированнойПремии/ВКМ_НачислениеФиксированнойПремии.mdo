@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5947fd9-9769-468e-b4b1-18708778a009">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5947fd9-9769-468e-b4b1-18708778a009">
   <producedTypes>
     <objectType typeId="d4841cb8-da25-4935-823f-32a8c25c6044" valueTypeId="707fcfd5-330b-49cb-9679-0f3ee17c9231"/>
     <refType typeId="676484ca-7ed4-42a5-91e3-1e13c99d299a" valueTypeId="7dc5a1f9-0c31-4d67-8474-2d318b3e8ae6"/>
@@ -25,6 +25,50 @@
   <autonumbering>true</autonumbering>
   <registerRecords>CalculationRegister.ВКМ_ДополнительныеНачисления</registerRecords>
   <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
+  <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="803a3f82-ee47-4079-8abb-25afbd21c691">
+    <producedTypes>
+      <objectType typeId="a5fb6073-89d9-4eca-a1b4-56a8c9d3b01b" valueTypeId="edcf74f2-5a7b-4699-ad19-f84f439b1125"/>
+      <rowType typeId="535bea40-bc3c-475c-8d80-868cc45ef68c" valueTypeId="ad1bd0fd-91f5-41ff-bdd6-52189479fe78"/>
+    </producedTypes>
+    <name>СписокСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список сотрудников</value>
+    </synonym>
+    <attributes uuid="2109d80c-194f-4dcf-914f-8eeb4620fd80">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e967810f-ca8f-4497-b788-584384a14f61">
+      <name>СуммаПремии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма премии</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>

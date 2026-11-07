@@ -17,4 +17,7 @@
   <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
   <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
 </mdclass:Subsystem>
