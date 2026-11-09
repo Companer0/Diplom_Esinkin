@@ -118,6 +118,14 @@
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
       <extendedEditMultipleValues>true</extendedEditMultipleValues>
+      <format>
+        <key>ru</key>
+        <value>ЧГ = 0</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧГ = 0</value>
+      </editFormat>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>

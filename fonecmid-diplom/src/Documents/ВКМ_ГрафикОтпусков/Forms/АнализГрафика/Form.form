@@ -1,88 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
-    <name>Номер</name>
-    <id>1</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Number</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>НомерРасширеннаяПодсказка</name>
-      <id>3</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>НомерКонтекстноеМеню</name>
-      <id>2</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <extendedEditMultipleValues>true</extendedEditMultipleValues>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
-  </items>
-  <items xsi:type="form:FormField">
-    <name>Дата</name>
-    <id>4</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Date</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>ДатаРасширеннаяПодсказка</name>
-      <id>6</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ДатаКонтекстноеМеню</name>
-      <id>5</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <extendedEditMultipleValues>true</extendedEditMultipleValues>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
-  </items>
-  <items xsi:type="form:FormField">
     <name>Год</name>
     <id>7</id>
     <visible>true</visible>
@@ -125,7 +43,7 @@
   </items>
   <items xsi:type="form:FormField">
     <name>Диаграмма</name>
-    <id>54</id>
+    <id>70</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -136,7 +54,7 @@
     </dataPath>
     <extendedTooltip>
       <name>ДиаграммаРасширеннаяПодсказка</name>
-      <id>56</id>
+      <id>72</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -146,7 +64,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ДиаграммаКонтекстноеМеню</name>
-      <id>55</id>
+      <id>71</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>GanttChartField</type>
@@ -157,25 +75,70 @@
     <extInfo xsi:type="form:GanttChartFieldExtInfo">
       <autoTable>
         <name>ДиаграммаТаблица</name>
-        <id>57</id>
+        <id>73</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <titleLocation>None</titleLocation>
+        <items xsi:type="form:FormField">
+          <name>ДиаграммаТаблицаТочка</name>
+          <id>86</id>
+          <title>
+            <key>ru</key>
+            <value>Сотрудник / 
+Месяц, неделя</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Диаграмма.Point</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ДиаграммаТаблицаТочкаРасширеннаяПодсказка</name>
+            <id>88</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ДиаграммаТаблицаТочкаКонтекстноеМеню</name>
+            <id>87</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>EnterOnInput</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
         <autoCommandBar>
           <name>ДиаграммаТаблицаКоманднаяПанель</name>
-          <id>58</id>
+          <id>74</id>
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
         <searchStringAddition>
           <name>ДиаграммаТаблицаСтрокаПоиска</name>
-          <id>61</id>
+          <id>77</id>
           <extendedTooltip>
             <name>ДиаграммаТаблицаСтрокаПоискаРасширеннаяПодсказка</name>
-            <id>63</id>
+            <id>79</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -185,7 +148,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ДиаграммаТаблицаСтрокаПоискаКонтекстноеМеню</name>
-            <id>62</id>
+            <id>78</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <source>ДиаграммаТаблица</source>
@@ -195,10 +158,10 @@
         </searchStringAddition>
         <viewStatusAddition>
           <name>ДиаграммаТаблицаСостояниеПросмотра</name>
-          <id>67</id>
+          <id>83</id>
           <extendedTooltip>
             <name>ДиаграммаТаблицаСостояниеПросмотраРасширеннаяПодсказка</name>
-            <id>69</id>
+            <id>85</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -208,7 +171,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ДиаграммаТаблицаСостояниеПросмотраКонтекстноеМеню</name>
-            <id>68</id>
+            <id>84</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
@@ -219,10 +182,10 @@
         </viewStatusAddition>
         <searchControlAddition>
           <name>ДиаграммаТаблицаУправлениеПоиском</name>
-          <id>64</id>
+          <id>80</id>
           <extendedTooltip>
             <name>ДиаграммаТаблицаУправлениеПоискомРасширеннаяПодсказка</name>
-            <id>66</id>
+            <id>82</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -232,7 +195,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ДиаграммаТаблицаУправлениеПоискомКонтекстноеМеню</name>
-            <id>65</id>
+            <id>81</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
@@ -243,7 +206,7 @@
         </searchControlAddition>
         <extendedTooltip>
           <name>ДиаграммаТаблицаРасширеннаяПодсказка</name>
-          <id>60</id>
+          <id>76</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -253,7 +216,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ДиаграммаТаблицаКонтекстноеМеню</name>
-          <id>59</id>
+          <id>75</id>
           <autoFill>true</autoFill>
         </contextMenu>
         <representation>Tree</representation>
@@ -308,6 +271,10 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
+    <title>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </title>
     <id>1</id>
     <valueType>
       <types>DocumentObject.ВКМ_ГрафикОтпусков</types>
@@ -326,10 +293,6 @@
   </attributes>
   <attributes>
     <name>Диаграмма</name>
-    <title>
-      <key>ru</key>
-      <value>Диаграмма</value>
-    </title>
     <id>2</id>
     <valueType>
       <types>GanttChart</types>
