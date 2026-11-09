@@ -52,6 +52,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 		<expression>&amp;СтандартныйПериод.ДатаНачала</expression>
 		<availableAsField>false</availableAsField>
@@ -70,6 +71,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 		<expression>&amp;СтандартныйПериод.ДатаОкончания</expression>
 		<availableAsField>false</availableAsField>
@@ -93,74 +95,7 @@
 		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
 			<dcsat:item xsi:type="dcsat:TableRow">
 				<dcsat:tableCell/>
-				<dcsat:tableCell>
-					<dcsat:item xsi:type="dcsat:Field">
-						<dcsat:value xsi:type="v8:LocalStringType">
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Выработка специалистов за период </v8:content>
-							</v8:item>
-						</dcsat:value>
-						<dcsat:appearance>
-							<dcscor:item>
-								<dcscor:parameter>Формат</dcscor:parameter>
-								<dcscor:value xsi:type="xs:string">ДФ=dd.MM.yyyy</dcscor:value>
-							</dcscor:item>
-						</dcsat:appearance>
-					</dcsat:item>
-					<dcsat:item xsi:type="dcsat:Field">
-						<dcsat:value xsi:type="dcscor:Parameter">НачалоПериода</dcsat:value>
-						<dcsat:appearance>
-							<dcscor:item>
-								<dcscor:parameter>Формат</dcscor:parameter>
-								<dcscor:value xsi:type="xs:string">ДФ=dd.MM.yyyy</dcscor:value>
-							</dcscor:item>
-						</dcsat:appearance>
-					</dcsat:item>
-					<dcsat:item xsi:type="dcsat:Field">
-						<dcsat:value xsi:type="v8:LocalStringType">
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content> по </v8:content>
-							</v8:item>
-						</dcsat:value>
-						<dcsat:appearance>
-							<dcscor:item>
-								<dcscor:parameter>Формат</dcscor:parameter>
-								<dcscor:value xsi:type="xs:string">ДФ=dd.MM.yyyy</dcscor:value>
-							</dcscor:item>
-						</dcsat:appearance>
-					</dcsat:item>
-					<dcsat:item xsi:type="dcsat:Field">
-						<dcsat:value xsi:type="dcscor:Parameter">КонецПериода</dcsat:value>
-						<dcsat:appearance>
-							<dcscor:item>
-								<dcscor:parameter>Формат</dcscor:parameter>
-								<dcscor:value xsi:type="xs:string">ДФ=dd.MM.yyyy</dcscor:value>
-							</dcscor:item>
-						</dcsat:appearance>
-					</dcsat:item>
-					<dcsat:item xsi:type="dcsat:Field">
-						<dcsat:value xsi:type="v8:LocalStringType">
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content/>
-							</v8:item>
-						</dcsat:value>
-						<dcsat:appearance>
-							<dcscor:item>
-								<dcscor:parameter>Формат</dcscor:parameter>
-								<dcscor:value xsi:type="xs:string">ДФ=dd.MM.yyyy</dcscor:value>
-							</dcscor:item>
-						</dcsat:appearance>
-					</dcsat:item>
-					<dcsat:appearance>
-						<dcscor:item>
-							<dcscor:parameter>Шрифт</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Font" faceName="Arial" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-						</dcscor:item>
-					</dcsat:appearance>
-				</dcsat:tableCell>
+				<dcsat:tableCell/>
 			</dcsat:item>
 			<dcsat:item xsi:type="dcsat:TableRow">
 				<dcsat:tableCell/>
@@ -280,7 +215,7 @@
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>СтандартныйПериод</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
-					<dcsset:userSettingID>c0efad11-0235-4ed2-9e8f-58266e4f22ed</dcsset:userSettingID>
+					<dcsset:userSettingID>2d55ef1c-14ff-4105-89f5-d652d0fe91e7</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:outputParameters>
@@ -299,12 +234,12 @@
 				</dcsset:selection>
 				<dcsset:outputParameters>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-						<dcscor:parameter>ВариантИспользованияГруппировки</dcscor:parameter>
-						<dcscor:value xsi:type="dcsset:DataCompositionGroupUseVariant">AdditionalInformation</dcscor:value>
-					</dcscor:item>
-					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 						<dcscor:parameter>МакетОформления</dcscor:parameter>
 						<dcscor:value xsi:type="xs:string">БезОформления</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ВариантИспользованияГруппировки</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionGroupUseVariant">AdditionalInformation</dcscor:value>
 					</dcscor:item>
 				</dcsset:outputParameters>
 				<dcsset:item xsi:type="dcsset:StructureItemGroup">
