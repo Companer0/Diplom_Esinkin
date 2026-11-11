@@ -43,4 +43,5 @@
   <content>AccumulationRegister.ВКМ_ДанныеРеализаций</content>
   <content>Report.ВКМ_РасчётыССотрудниками</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>InformationRegister.ВКМ_ЗапланированныеОтпуска</content>
 </mdclass:Subsystem>
