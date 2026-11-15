@@ -669,9 +669,9 @@
   <commonModules>CommonModule.ВариантыОтчетовСлужебный</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовСлужебныйКлиентСервер</commonModules>
-  <commonModules>CommonModule.ВКМ_ДлительныеОперации</commonModules>
   <commonModules>CommonModule.ВКМ_ОбработчикиСобытий</commonModules>
   <commonModules>CommonModule.ВКМ_ОтправкаВТелеграм</commonModules>
+  <commonModules>CommonModule.ВКМ_СозданиеРеализаций</commonModules>
   <commonModules>CommonModule.ВКМ_УведомленияВТелеграм</commonModules>
   <commonModules>CommonModule.ВнешниеПользователи</commonModules>
   <commonModules>CommonModule.ВнешниеПользователиКлиент</commonModules>
