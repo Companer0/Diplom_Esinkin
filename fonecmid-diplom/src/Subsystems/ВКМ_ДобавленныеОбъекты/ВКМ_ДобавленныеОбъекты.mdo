@@ -47,4 +47,6 @@
   <content>Role.ВКМ_РаботаСОтчетомВыработкаСпециалистов</content>
   <content>Role.ВКМ_РаботаСОтчетомАнализВыставленныхАктов</content>
   <content>Role.ВКМ_РаботаСОтчетамиПоЗарплатеИОтпускам</content>
+  <content>DataProcessor.ВКМ_КалендарьСпециалистов</content>
+  <content>Role.ВКМ_РаботаСКалендарьСпециалистов</content>
 </mdclass:Subsystem>

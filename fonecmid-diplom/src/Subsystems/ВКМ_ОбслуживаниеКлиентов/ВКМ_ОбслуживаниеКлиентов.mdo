@@ -14,4 +14,5 @@
   <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>DataProcessor.ВКМ_КалендарьСпециалистов</content>
 </mdclass:Subsystem>
